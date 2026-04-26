@@ -16,6 +16,7 @@ adb shell settings put secure night_mode 1
 adb shell settings put global preferred_network_type 9
 
 # Disable VoLTE
+# People can't call you if your country doesn't have 2G/3G network or VoLTE support
 adb shell settings put global volte_vt_enabled 0
 
 # Disable adaptive battery
