@@ -1,0 +1,22 @@
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Python (if applicable)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Local configuration
+.env
